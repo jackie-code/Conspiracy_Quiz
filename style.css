@@ -1,0 +1,565 @@
+
+@media only screen and (min-width : 320px) {
+    html {
+      background-color: black;
+    }
+    
+    header {
+        text-align: center;
+        background-color: rgb(236, 236, 236);
+        padding: 10px;
+    }
+    
+    .sizeMe {
+      color: rgb(236, 236, 236);
+      font-family: 'Teko', sans-serif;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: center;
+        background-image: url(https://live.staticflickr.com/4056/35569773691_ba78617a1d_b.jpg);
+    }
+    h1 {
+      text-align: center;
+      font-family: 'Wallpoet', cursive;
+    }
+    
+    h2 {
+     font-family: 'Wallpoet', cursive;
+    font-family: 'Teko', sans-serif;
+    }
+    
+    .submit {
+      padding: 10px;
+      background-color: rgb(195, 89, 154);
+      color: white;
+    }
+    
+    .next {
+      padding: 10px;
+      background-color: rgb(47, 221, 105);
+    }
+    
+    .js-start-page {
+     
+    }
+    
+    #start {
+    font-size: 2em;
+    background-color: black;
+    color: white;
+    border: 10px solid rgb(236, 236, 236);
+    }
+    
+    ul {
+      list-style: none;
+    }
+    
+    .somebackground {
+     width: 90%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin: 10px;
+     padding: 10px;
+    }
+    
+    .explain {
+     font-size: 1.35em;
+     background-color: rgba(243, 234, 151, 0.9);
+     width: 70%;
+     height: 420px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin: 30px;
+     padding: 30% 30px 30px 30px;
+     border: 10px solid rgb(236, 236, 236);
+    }
+    
+    .green {
+    background-color: rgba(31, 224, 82, 0.9);
+    }
+    
+    .red {
+    background-color: rgba(204, 100, 100, 0.9);
+    }
+    
+    .somebackground h3 {
+        text-align: center;
+    }
+    
+    .inner {
+       background-color: rgba(171, 209, 181, .9);
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 420px;
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding: 10px;
+        margin-top: 10px;
+        border: 10px solid rgb(236, 236, 236);
+    }
+    
+    #myForm {
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    
+    label {
+     padding-left: 10px;
+    }
+    
+    form input {
+        
+    }
+    
+    .question {
+      text-align: center;
+        background-color: white;
+        width: 90%;
+        border: 5px solid black; 
+    }
+    
+    
+    
+    .next {
+      position: fixed;
+      margin-left: auto;
+      margin-right: auto;
+      bottom: 20%;
+    }
+    
+    .finished {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.9);
+      border: 10px solid rgb(236, 236, 236);
+    }
+    
+    .retake {
+      padding: 14px;
+      background-color:rgb(24, 128, 219);
+      border-top: 10px solid rgb(236, 236, 236);
+      color: white;
+    }
+    
+    footer {
+      height: 30px;  
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: black;
+      color: white;
+      text-align: center;
+    }
+    
+    .hidden {
+        display: none;
+        
+    }
+    
+    .line-through {
+        text-decoration: line-through;
+    }
+    
+    .deleteMe {
+      display: flex;
+      margin: 0 0 25px 0;
+    }
+    
+    
+    }
+    
+    
+    
+    
+    @media only screen and (min-width: 750px)  {
+    
+    html {
+      background-color: black;
+    }
+    
+    header {
+        text-align: center;
+        background-color: rgb(236, 236, 236);
+        padding: 10px;
+    }
+    
+    .sizeMe {
+      color: rgb(236, 236, 236);
+      font-family: 'Teko', sans-serif;
+      font-size: 2em;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: center;
+        background-image: url(https://live.staticflickr.com/4056/35569773691_ba78617a1d_b.jpg);
+    }
+    h1 {
+      text-align: center;
+      font-family: 'Wallpoet', cursive;
+    }
+    
+    h2 {
+     font-family: 'Wallpoet', cursive;
+    font-family: 'Teko', sans-serif;
+    }
+    
+    .submit {
+      padding: 10px;
+      background-color: rgb(195, 89, 154);
+      color: white;
+    }
+    
+    .next {
+      padding: 10px;
+      background-color: rgb(47, 221, 105);
+    }
+    
+    .js-start-page {
+     
+    }
+    
+    #start {
+    font-size: 2em;
+    background-color: black;
+    color: white;
+    border: 10px solid rgb(236, 236, 236);
+    }
+    
+    ul {
+      list-style: none;
+    }
+    
+    .somebackground {
+     width: 90%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin: 10px;
+     padding: 10px;
+    }
+    
+    .explain {
+     font-size: 1.35em;
+     background-color: rgba(243, 234, 151, 0.9);
+     width: 70%;
+     height: 420px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin: 30px;
+     padding: 15% 30px 30px 30px;
+     border: 10px solid rgb(236, 236, 236);
+    }
+    
+    .green {
+    background-color: rgba(31, 224, 82, 0.9);
+    }
+    
+    .red {
+    background-color: rgba(204, 100, 100, 0.9);
+    }
+    
+    .somebackground h3 {
+        text-align: center;
+    }
+    
+    .inner {
+       background-color: rgba(171, 209, 181, .9);
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 420px;
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding: 25px;
+        margin-top: 10px;
+        border: 10px solid rgb(236, 236, 236);
+    }
+    
+    #myForm {
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    
+    label {
+     padding-left: 10px;
+    }
+    
+    form input {
+        
+    }
+    
+    .question {
+      text-align: center;
+        background-color: white;
+        width: 90%;
+        border: 5px solid black; 
+    }
+    
+    
+    
+    .next {
+      position: fixed;
+      margin-left: auto;
+      margin-right: auto;
+      bottom: 20%;
+    }
+    
+    .finished {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.9);
+      border: 10px solid rgb(236, 236, 236);
+    }
+    
+    .retake {
+      padding: 14px;
+      background-color:rgb(24, 128, 219);
+      border-top: 10px solid rgb(236, 236, 236);
+      color: white;
+    }
+    
+    footer {
+      height: 30px;  
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: black;
+      color: white;
+      text-align: center;
+    }
+    
+    .hidden {
+        display: none;
+        
+    }
+    
+    .line-through {
+        text-decoration: line-through;
+    }
+    
+    .deleteMe {
+      display: flex;
+      margin: 0 0 25px 0;
+    }
+    
+    
+    
+    }
+    
+    
+    
+    
+    
+    @media only screen and (min-width: 1200px) {
+    
+    html {
+      background-color: black;
+    }
+    
+    header {
+        text-align: center;
+        background-color: rgb(236, 236, 236);
+        padding: 10px;
+    }
+    
+    .sizeMe {
+      color: rgb(236, 236, 236);
+      font-family: 'Teko', sans-serif;
+      font-size: 2em;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: center;
+         background: url(https://i.dailymail.co.uk/i/pix/scaled/2014/09/07/1410124399388_wps_6_X_ray_brain_connect.jpg) no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+    h1 {
+      text-align: center;
+      font-family: 'Wallpoet', cursive;
+    }
+    
+    h2 {
+     font-family: 'Wallpoet', cursive;
+    font-family: 'Teko', sans-serif;
+    }
+    
+    .submit {
+      padding: 10px;
+      background-color: rgb(195, 89, 154);
+      color: white;
+    }
+    
+    .next {
+      padding: 10px;
+      background-color: rgb(47, 221, 105);
+    }
+    
+    .js-start-page {
+     
+    }
+    
+    #start {
+    font-size: 2em;
+    background-color: black;
+    color: white;
+    border: 10px solid rgb(236, 236, 236);
+    }
+    
+    ul {
+      list-style: none;
+    }
+    
+    .somebackground {
+     width: 90%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin: 10px;
+     padding: 10px;
+    }
+    
+    .explain {
+     font-size: 1.35em;
+     background-color: rgba(243, 234, 151, 0.9);
+     width: 70%;
+     height: 420px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin: 30px;
+     padding: 15% 30px 30px 30px;
+     border: 10px solid rgb(236, 236, 236);
+    }
+    
+    .green {
+    background-color: rgba(31, 224, 82, 0.9);
+    }
+    
+    .red {
+    background-color: rgba(204, 100, 100, 0.9);
+    }
+    
+    .somebackground h3 {
+        text-align: center;
+    }
+    
+    .inner {
+       background-color: rgba(171, 209, 181, .9);
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 420px;
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding: 25px;
+        margin-top: 10px;
+        border: 10px solid rgb(236, 236, 236);
+    }
+    
+    #myForm {
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    
+    label {
+     padding-left: 10px;
+    }
+    
+    form input {
+        
+    }
+    
+    .question {
+      text-align: center;
+        background-color: white;
+        width: 90%;
+        border: 5px solid black; 
+    }
+    
+    
+    
+    .next {
+      position: fixed;
+      margin-left: auto;
+      margin-right: auto;
+      bottom: 20%;
+    }
+    
+    .finished {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.9);
+      border: 10px solid rgb(236, 236, 236);
+    }
+    
+    .retake {
+      padding: 14px;
+      background-color:rgb(24, 128, 219);
+      border-top: 10px solid rgb(236, 236, 236);
+      color: white;
+    }
+    
+    footer {
+      height: 30px;  
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: black;
+      color: white;
+      text-align: center;
+    }
+    
+    .hidden {
+        display: none;
+        
+    }
+    
+    .line-through {
+        text-decoration: line-through;
+    }
+    
+    .deleteMe {
+      display: flex;
+      margin: 0 0 25px 0;
+    }
+    
+    
+    
+    
+    }
+    
